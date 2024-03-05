@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/icon/pic.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'>
+<link rel="stylesheet" href="./style.css">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<!-- Font Awesome pego no site cdnjs com icones-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="header">
+  <a href="" class="header-brand">Gallery</a>
+  <nav class="header-navbar">
+    <ul>
+      <li>
+        <a href="#" class="active">Home</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://rafael-lino-lobo.netlify.app/">Portifolio</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://rafael-lino-lobo.netlify.app/#Projects">Projects</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://rafael-lino-lobo.netlify.app/#contact">Contact</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://rafael-lino-lobo.netlify.app/#about">About</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="header-social-media">
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/rafael-lino-lobo-097b121b5/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/losfodo">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/_rafa.lobo_/">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/losfodo">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+<div class="underline-home"></div>
+<main>
+  <div class="gallery">
+    <div class="gallery-card" id="card-1">
+      <h2 class="gallery-card-title">Art</h2>
+      <a href="" class="gallery-card-btn">More photos</a>
+    </div>
+    <div class="gallery-card" id="card-2">
+      <h2 class="gallery-card-title">Places</h2>
+      <a href="" class="gallery-card-btn">More photos</a>
+    </div>
+    <div class="gallery-card" id="card-3">
+      <h2 class="gallery-card-title">Styles</h2>
+      <a href="" class="gallery-card-btn">More photos</a>
+    </div>
+  </div>
+</main>
+<div class="underline-title"></div>
+<div id="app" class="container">
+  <card data-image="../img/conteudo/1.jpg">
+    <h1 slot="header">Art</h1>
+    <p slot="content">random.</p>
+  </card>
+  <card data-image="../img/conteudo/art.jpg">
+    <h1 slot="header">noodle</h1>
+    <p slot="content">noodle guitarrista aimation gorillaz.</p>
+  </card>
+  <card data-image="../img/conteudo/camiseta.jpg">
+    <h1 slot="header">Art</h1>
+    <p slot="content">Alien Pizza.</p>
+  </card>
+  <card data-image="../img/conteudo/cidade.jpg">
+    <h1 slot="header">Places</h1>
+    <p slot="content">big city.</p>
+  </card>
+  <card data-image="../img/conteudo/4.jpg">
+    <h1 slot="header">Music</h1>
+    <p slot="content">.</p>
+  </card>
+  <card data-image="../img/conteudo/2.jpg">
+    <h1 slot="header">Spider verse</h1>
+    <p slot="content">moives.</p>
+  </card>
+  <card data-image="../img/conteudo/euela.png">
+    <h1 slot="header">Styles</h1>
+    <p slot="content">A cat.</p>
+  </card>
+  <card data-image="../img/conteudo/paris.jpg">
+    <h1 slot="header">Paris</h1>
+    <p slot="content">Torre Eiffel.</p>
+  </card>
+  <card data-image="../img/conteudo/3.png">
+    <h1 slot="header">Art</h1>
+    <p slot="content">.</p>
+  </card>
+  <card data-image="../img/conteudo/10.jpg">
+    <h1 slot="header">Peoples</h1>
+    <p slot="content">eyes.</p>
+  </card>
+  <card data-image="../img/conteudo/venom.jpg">
+    <h1 slot="header">Art</h1>
+    <p slot="content">comics.</p>
+  </card>
+  <card data-image="../img/conteudo/5.jpg">
+    <h1 slot="header">Styles</h1>
+    <p slot="content">Pics.</p>
+  </card>
+  <card data-image="../img/conteudo/6.jpg">
+    <h1 slot="header">Styles</h1>
+    <p slot="content">Description.</p>
+  </card>
+  <card data-image="../img/conteudo/7.jpg">
+    <h1 slot="header">Places</h1>
+    <p slot="content">Lightning.</p>
+  </card>
+  <card data-image="../img/conteudo/8.png">
+    <h1 slot="header">Styles</h1>
+    <p slot="content">photo descriptions.</p>
+  </card>
+  <card data-image="../img/conteudo/9.jpg">
+    <h1 slot="header">Places</h1>
+    <p slot="content">photo descriptions.</p>
+  </card>
+  <card data-image="../img/conteudo/11.jpg">
+    <h1 slot="header">Styles</h1>
+    <p slot="content">photo descriptions.</p>
+  </card>
+  <card data-image="../img/conteudo/12.jpg">
+    <h1 slot="header">Styles</h1>
+    <p slot="content">photo descriptions.</p>
+  </card>
+  <card data-image="../img/conteudo/13.jpg">
+    <h1 slot="header">Styles</h1>
+    <p slot="content">photo descriptions.</p>
+  </card>
+  <card data-image="../img/conteudo/14.jpg">
+    <h1 slot="header">Styles</h1>
+    <p slot="content">photo descriptions.</p>
+  </card>
+  <card data-image="../img/conteudo/15.jpg">
+    <h1 slot="header">Places</h1>
+    <p slot="content">photo descriptions.</p>
+  </card>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script><script  src="./script.js"></script>
+  <div class="underline-title"></div>
+  <footer>
+    <p>&copy; <span>RafaelLinoLobo</span> - 2020</p><!--footer da pagina html-->
+  </footer>
+</body>
+</html>
