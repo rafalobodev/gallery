@@ -26,7 +26,7 @@ body ul {
   padding: 1.5rem 0;
   margin: 0 auto;
 }
-@media (max-width: 425px) {
+@media (max-width: 540px) {
   .header {
     padding: 1.1rem;
   }
@@ -41,7 +41,7 @@ body ul {
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 425px) {
+@media (max-width: 540px) {/*max-width: 425px*/
   .header-navbar ul {
     display: none;
   }
@@ -63,13 +63,16 @@ body ul {
   justify-content: center;
   height: 100%;
 }
-@media (max-width: 425px) {
-  .header-social-media ul {
+@media (max-width: 853px) {/*max-width: 425px*/
+  /* .header-social-media ul {
     display: none;
-  }
+  } */
+  /* .header-social-media ul li {
+    margin: 0 0.5rem;
+  } */
 }
 .header-social-media ul li {
-  margin: 0 1rem;
+  margin: 0 0.4rem;
 }
 .header-social-media ul li a:hover {
   color: #FFF;
@@ -126,7 +129,7 @@ body ul {
   color: #000;
 }
 .gallery #card-1 {
-  background-image: url("../img/art.jpg");
+  background-image: url("img/art.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,10 +139,10 @@ body ul {
 .gallery #card-1:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/art.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/art.jpg");
 }
 .gallery #card-2 {
-  background-image: url("../img/natureza.jpg");
+  background-image: url("img/natureza.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -152,10 +155,10 @@ body ul {
 .gallery #card-2:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/natureza.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/natureza.jpg");
 }
 .gallery #card-3 {
-  background-image: url("../img/style.jpg");
+  background-image: url("img/style.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -165,7 +168,7 @@ body ul {
 .gallery #card-3:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/style.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/style.jpg");
 }
 
 footer {
